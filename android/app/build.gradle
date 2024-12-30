@@ -42,3 +42,21 @@ android {
 flutter {
     source = "../.."
 }
+
+// android/app/build.gradle
+apply plugin: 'com.android.application'
+// Altri plugin...
+apply plugin: 'com.google.gms.google-services' // Aggiungi questa linea alla fine
+
+android {
+    // Configurazioni...
+}
+
+dependencies {
+    implementation platform('com.google.firebase:firebase-bom:31.2.3') // Aggiungi Firebase BOM
+    implementation 'com.google.firebase:firebase-analytics' // Aggiungi altri servizi Firebase necessari
+    implementation 'com.google.firebase:firebase-auth' // Per l'autenticazione
+    implementation 'com.google.firebase:firebase-firestore' // Per Firestore
+    // Altre dipendenze...
+}
+

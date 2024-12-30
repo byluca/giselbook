@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "158484053860",
+    "project_id": "giselbook",
+    "storage_bucket": "giselbook.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158484053860:android:faba8dbac6e401fcd7c471",
+        "android_client_info": {
+          "package_name": "com.example.giselbook"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBWcFf8AhPnS-fySq-s6HCa4_qMxyQdBQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
